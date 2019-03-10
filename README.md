@@ -1,6 +1,6 @@
 # max-course-blog
 
-> My splendiferous Nuxt.js project
+Just me following along with a udemy course
 
 ## Build Setup
 
