@@ -3,28 +3,15 @@
     <section class="intro">
       <h1>Welcome to the site</h1>
     </section>
-    <section class="featured-posts">
-      <PostPreview 
-        :id="1" 
-        thumbnail="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv" 
-        titleText="All About The Woods"
-        previewText="kate moss"
-      />
-      <PostPreview 
-        :id="2" 
-        thumbnail="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cc_iStock-478639870_16x9.jpg?itok=1-jMc4Xv" 
-        titleText="Wood and Board"
-        previewText="mossy moss"
-      />
-    </section>
+    <PostList />
   </div>
 </template>
 
 <script>
-import PostPreview from '@/components/Posts/PostPreview'
+import PostList from '@/components/Posts/PostList'
 export default {
   components: {
-    PostPreview,
+    PostList,
   },
 }
 </script>
